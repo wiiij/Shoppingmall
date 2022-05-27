@@ -1,4 +1,4 @@
-# shoppingma
+# 쇼핑몰
 이번에는 정보처리산업기사에 나왔다던 쇼핑몰 사이트(?) 문제를 부족하지만 해보았습니다.
 먼저 구현해야하는 화면입니다.
 ![image](https://user-images.githubusercontent.com/102115231/170632681-d1e6e1a1-95e7-4415-bdb4-e051e7a0f49e.png) <br>
