@@ -8,16 +8,17 @@
 ![image](https://user-images.githubusercontent.com/102115231/170634181-94550014-f978-4239-a393-cc544217f475.png) <br>
 먼저 머리가 될 내용을 먼저 적고 css로 스타일을 꾸며줘야하기에 link로 먼저 css파일과 연결시켜줬습니다. <br>
 css로는 이렇게 했습니다. <br>
-![image](https://user-images.githubusercontent.com/102115231/170635022-421353ce-c8bb-4abb-8115-80757a47b27a.png)
+![image](https://user-images.githubusercontent.com/102115231/170635022-421353ce-c8bb-4abb-8115-80757a47b27a.png) <br>
 크기를 먼저 맞추고 배경과 글자 색도 줬습니다. <br>
-![image](https://user-images.githubusercontent.com/102115231/170637895-7d661bf2-80c1-43bd-8ffa-40183eb6c4dd.png)
-\일단 머리 완성/
+![image](https://user-images.githubusercontent.com/102115231/186085725-f512dbd4-58cd-474e-9d9e-d0846a8c7bb7.png)
+
+\일단 머리 완성/ <br>
 그 다음 팔이라 하기 묘하지만 팔을 먼저 만들었습니다<br>
 ![image](https://user-images.githubusercontent.com/102115231/170635747-eab35f68-fefc-4bd0-849a-8f4740a85a1e.png) <br>
 이걸 href를 이용해 다른데에 먼저 연결을 시켜줘야 하지만 지금은 index에 연결을 시켜놨습니다. <br>
 ![image](https://user-images.githubusercontent.com/102115231/170636636-c108e176-d0d7-4761-92ca-92900c6b4057.png) <br>
 css로는 여기도 위와 비슷한 느낌으로 배경과 글자 색을 넣어줬습니다. 그리고 글자들을 왼쪽으로 정렬을 시켰습니다. <br>
-![image](https://user-images.githubusercontent.com/102115231/170638005-a0a68aaa-8f34-4913-8bf3-c73baa546b1f.png) <br>
+![image](https://user-images.githubusercontent.com/102115231/186085503-22be1ac2-0cb7-4277-b25e-5fdfb186fc38.png)<br>
 \팔이 아닌거 같지만 팔 완성/<br>
 이제 메인이 될 몸통을 만들어봤습니다. <br>
 ![image](https://user-images.githubusercontent.com/102115231/170637406-151b28ba-edac-495b-853c-63bc6c392994.png) <br>
@@ -39,4 +40,12 @@ css입니다. <br>
 이렇게 <br>
 ![image](https://user-images.githubusercontent.com/102115231/170639958-91db277b-aea3-4211-9e52-d499ccd1fc53.png)<br>
 완성이 됩니다 👏👏 <br>
-여기까지 입니다.
+
+그리고 이어서 몸을 만들었으니 움직일 수 있게 생명을 불어넣어 줍시다. <br>
+기본 화면에서 회원등록을 가면 이제 새로운 화면이 나오게 만들어야 하고 회원등록을 하기 위해서는 회원의 목록이 필요하기에 <br>
+sql과 연결해주고 member_tbl_02 테이블 안에 있는 목록을 가져옵니다<br>
+![image](https://user-images.githubusercontent.com/102115231/186092076-c706254b-f4e0-4cf0-974d-b9eb5236ea92.png) <br>
+ DB로 바꿔줍니다 <br>
+ ![image](https://user-images.githubusercontent.com/102115231/186092620-e08f85c5-48af-4d51-9744-597a747e2388.png) <br>
+ 
+ 
