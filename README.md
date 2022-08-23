@@ -41,7 +41,34 @@ css입니다. <br>
 ![image](https://user-images.githubusercontent.com/102115231/170639958-91db277b-aea3-4211-9e52-d499ccd1fc53.png)<br>
 완성이 됩니다 👏👏 <br>
 
-그리고 이어서 몸을 만들었으니 움직일 수 있게 생명을 불어넣어 줍시다. <br>
-기본 화면에서 회원등록을 가면 이제 새로운 화면이 나오게 만들어야 하고 회원등록을 하기 위해서는 회원의 목록이 필요하기에 <br>
+그리고 이어서 몸을 만들었으니 움직일 수 있게 생명을 불어넣어주는 느낌으로 갑시다. <br>
+![image](https://user-images.githubusercontent.com/102115231/186147369-d4319dce-192b-4bc2-b742-aacb3ed1e430.png) <br>
+먼저 DB와 자바파일을 연결시키는 코드로 문자열의 id pw url 들의 값을 적고 try catch 문을 이용해 conn을 연결해줍니다.<br>
+그리고 sql 문은 테이블안에 값을 넣어주고 테이블 생성 시 id상태와 값을 입력해서 생성해주고 값을 넣습니다.<br>
+(테이블 조건에 맞게 차례대로 입력해야합니다.)<br>
+![image](https://user-images.githubusercontent.com/102115231/186148320-2e33747a-7811-438c-96ce-041bbfda477c.png)<br>
+이후 join으로 넘어갑시다<br>
+![image](https://user-images.githubusercontent.com/102115231/186149234-c928870d-f9e5-4c1a-8ef9-d33ae17659c8.png)<br>
+실행 화면 입니다.<br>
+<b>join_p코드</b><br>
+![image](https://user-images.githubusercontent.com/102115231/186150733-47c8d23b-bd9d-4b29-b5b5-569282383bce.png)<br>
+이 코드로는 첫째줄에 자동적으로 입력을 받는데 그 작업에 실행코드 입니다.<br>
+sql 문을 문자열에 쿼리문을 작성해 넣어주고 conn을 통해 DB와 연결 해주어 PreparedStatement 통해 쿼리문을 DB로 전달해주며,<br>
+그 값을 넣은 변수 pstmt를 이용한 쿼리문 결과를 담은 객체 ResultSet을 통해 rs 값을 받은 rs를 사용시 num에게 쿼리문 결과에다<br>
++1 한값을 넣어 회원번호를 만들어 출력해줍니다.<br>
+아래 자바스크립트 코드로 이거는 checkValue 라는 함수를 만들어 사용하고, 함수에서는 form 문에 있는 버튼을 누를때 사용되어 if문을 통한 !document.data.name.value라는 <br>
+것으로 이를 input에 value 값에 유무를 검사하는것으로 만약 있으면 계속 진행해 true에 도달한다. 하지만 값이 없으면 알림이 이를 알려주고 false값을 입력 받아 <br>
+다시 입력할수있게 만드는 코드이다. <br>
+![image](https://user-images.githubusercontent.com/102115231/186152349-75501111-f9f2-4135-a763-0beddc1985d5.png) <br>
+join파일에 마지막에 form문에 테이블문을 넣어서 테이블에 input값을 넣어 실행화면에 모양을 만들어 실행화면처럼 나옵니다. <br>
+<b>join_p 코드</b> <br>
+![image](https://user-images.githubusercontent.com/102115231/186156277-16b5c45e-f3c0-45da-af46-4ce86a6cebd2.png)<br>
+join에서 form 문에 있던 action에 사용된 코드, 첫번째 줄에있는 코드가 UTF-8로 변환해주는 코드로 문자열인 sql 쿼리문을 저장시켜 conn를 통해 DB 자바와 연결시킨다.<br>
+pstmt를 통해 쿼리문을 DB로 전달시켜 다음줄부터는 sql 문자열에서 ?에 값을 넣어주고, 모두 문자열로 바꾼다. 하지만 첫번째줄에 값은 int 값으로 받아줘야되기에 
+Intger.parseInt로 변화해 값을 넣어주며, 그다음 마지막 줄 코드를 실행시켜 DB를 업데이트 시켜줍니다.<br>
+<b>join_p 코드</b><br>
+이 후, 맞게 잘 넣어주었다면 아래와 같이 값이 추가 되었을 것이다.<br>
+![image](https://user-images.githubusercontent.com/102115231/186158140-bf71da38-5f9c-45e9-be01-8394d22efc1b.png)<br>
 
- 
+
+
