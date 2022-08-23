@@ -43,9 +43,5 @@ css입니다. <br>
 
 그리고 이어서 몸을 만들었으니 움직일 수 있게 생명을 불어넣어 줍시다. <br>
 기본 화면에서 회원등록을 가면 이제 새로운 화면이 나오게 만들어야 하고 회원등록을 하기 위해서는 회원의 목록이 필요하기에 <br>
-sql과 연결해주고 member_tbl_02 테이블 안에 있는 목록을 가져옵니다<br>
-![image](https://user-images.githubusercontent.com/102115231/186092076-c706254b-f4e0-4cf0-974d-b9eb5236ea92.png) <br>
- DB로 바꿔줍니다 <br>
- ![image](https://user-images.githubusercontent.com/102115231/186092620-e08f85c5-48af-4d51-9744-597a747e2388.png) <br>
- 
+
  
