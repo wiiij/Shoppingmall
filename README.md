@@ -62,9 +62,9 @@ sql 문을 문자열에 쿼리문을 작성해 넣어주고 conn을 통해 DB와
 ![image](https://user-images.githubusercontent.com/102115231/186152349-75501111-f9f2-4135-a763-0beddc1985d5.png) <br>
 join파일에 마지막에 form문에 테이블문을 넣어서 테이블에 input값을 넣어 실행화면에 모양을 만들어 실행화면처럼 나옵니다. <br>
 <b>join_p 코드</b> <br>
-![image](https://user-images.githubusercontent.com/102115231/186156277-16b5c45e-f3c0-45da-af46-4ce86a6cebd2.png)<br>
+![image](https://user-images.githubusercontent.com/102115231/186320977-c36779d3-c73d-41f5-9e40-97acbff2e6ce.png) <br>
 join에서 form 문에 있던 action에 사용된 코드, 첫번째 줄에있는 코드가 UTF-8로 변환해주는 코드로 문자열인 sql 쿼리문을 저장시켜 conn를 통해 DB 자바와 연결시킨다.<br>
-pstmt를 통해 쿼리문을 DB로 전달시켜 다음줄부터는 sql 문자열에서 ?에 값을 넣어주고, 모두 문자열로 바꾼다. 하지만 첫번째줄에 값은 int 값으로 받아줘야되기에 
+pstmt를 통해 쿼리문을 DB로 전달시킨 뒤 다음줄부터는 sql 문자열에서 ?에 값을 입력받은 뒤, 모두 문자열로 바꾼다. 하지만 첫번째줄에 값은 int 값으로 받아줘야되기에 
 Intger.parseInt로 변화해 값을 넣어주며, 그다음 마지막 줄 코드를 실행시켜 DB를 업데이트 시켜줍니다.<br>
 <b>join_p 코드</b><br>
 이 후, 맞게 잘 넣어주었다면 아래와 같이 값이 추가 되었을 것이다.<br>
