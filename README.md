@@ -70,11 +70,11 @@ Intger.parseInt로 변화해 값을 넣어주며, 그다음 마지막 줄 코드
 이 후, 맞게 잘 넣어주었다면 아래와 같이 값이 추가 되었을 것이다.<br>
 ![image](https://user-images.githubusercontent.com/102115231/186158140-bf71da38-5f9c-45e9-be01-8394d22efc1b.png)<br>
 
-이번에는 또 이 친구가 위 활동 말고 또 다른 활동을 할수 있게 해보죠.
-위에서는 명단을 입력 받는 거였고 이번에는 추가된 명단에 수정과 삭제 화면까지 만들었습니다 
-![image](https://user-images.githubusercontent.com/102115231/186560915-7d007917-36e3-4dda-aca4-54db26099252.png)
-문자열 형태로 sql쿼리문을 사용해 정보들을 불러오는데 번호, 회원이름, 전화번호, 주소 이들은 그대로 가주며,가입 날짜를 to_char를 이용해 yyyy-mm-dd 형식인 즉, 날짜(생년월일)형식 바꿔준뒤, case를 사용해 회원등급을 숫자가 아닌 vip,일반,직원 등으로 바꿔주고 정렬해주었습니다.
-그리고 아래 PreparedStatement 여기서 쿼리문으로 바꿔주고, 그 아래 ReslutSet rs에서 rs값을 저장해줍니다. 
+이번에는 또 이 친구가 위 활동 말고 또 다른 활동을 할수 있게 해보죠.<br>
+위에서는 명단을 입력 받는 거였고 이번에는 추가된 명단에 수정과 삭제 화면까지 만들었습니다. <br>
+![image](https://user-images.githubusercontent.com/102115231/186560915-7d007917-36e3-4dda-aca4-54db26099252.png) <br>
+문자열 형태로 sql쿼리문을 사용해 정보들을 불러오는데 번호, 회원이름, 전화번호, 주소 이들은 그대로 가주며,가입 날짜를 to_char를 이용해 yyyy-mm-dd 형식인 즉, 날짜(생년월일)형식 바꿔준뒤, case를 사용해 회원등급을 숫자가 아닌 vip,일반,직원 등으로 바꿔주고 정렬해주었습니다. <br>
+그리고 아래 PreparedStatement 여기서 쿼리문으로 바꿔주고, 그 아래 ReslutSet rs에서 rs값을 저장해줍니다. <br>
 
 
 
