@@ -78,7 +78,7 @@ Intger.parseInt로 변화해 값을 넣어주며, 그다음 마지막 줄 코드
 ![image](https://user-images.githubusercontent.com/102115231/186579611-d02f3dec-c04e-4d61-88bc-cdb552570927.png) <br>
 그 다음 테이블의 첫줄을 만들어 주고 이후 아래 값들이 들어가야 하기에 테이블을 닫으면 안된다. <br>
 ![image](https://user-images.githubusercontent.com/102115231/186579984-ff7f7a75-5c77-4af4-b311-1661339b2575.png) <br>
-그리고 테이블에 while문 중 rs.next를 whlie문 안에 넣으므로 끝이 날때까지 반복을 시켜주고 그 아래에서는 getString을 이용함으로 rs에저장된 문자열들을 테이블 안에 넣어줌으로 이렇게 나오게 됩니다. <br>
+그리고 테이블에 while문 중 rs.next를 whlie문 안에 넣으므로 끝이 날때까지 반복을 시켜주고 결과 값이 있는 rs가 그 아래에서는 getString로 저장된 문자열들을 테이블 안에 넣어줌으로 이렇게 나오게 됩니다. <br>
 ![image](https://user-images.githubusercontent.com/102115231/186584208-1ab1213b-121d-4b8d-995f-31b843ccd96b.png) <br>
 
 
