@@ -61,7 +61,7 @@ sql 문을 문자열에 쿼리문을 작성해 넣어주고 conn을 통해 DB와
 다시 입력할수있게 만드는 코드이다. <br>
 ![image](https://user-images.githubusercontent.com/102115231/186152349-75501111-f9f2-4135-a763-0beddc1985d5.png) <br>
 join파일에 마지막에 form문에 테이블문을 넣어서 테이블에 input값을 넣어 실행화면에 모양을 만들어 실행화면처럼 나옵니다. <br>
-<b>join_p 코드</b> <br>
+<b>member_list 코드</b> <br>
 ![image](https://user-images.githubusercontent.com/102115231/186320977-c36779d3-c73d-41f5-9e40-97acbff2e6ce.png) <br>
 join에서 form 문에 있던 action에 사용된 코드, 첫번째 줄에있는 코드가 UTF-8로 변환해주는 코드로 문자열인 sql 쿼리문을 저장시켜 conn를 통해 DB 자바와 연결시킨다.<br>
 pstmt를 통해 쿼리문을 DB로 전달시킨 뒤 다음줄부터는 sql 문자열에서 ?에 값을 입력받은 뒤, 모두 문자열로 바꾼다. 하지만 첫번째줄에 값은 int 값으로 받아줘야되기에 
